@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Installing necessary pkgs
-        run: yarn --prod
+        run: yarn 
       
       - name: Deploying app
         run: yarn run deploy
