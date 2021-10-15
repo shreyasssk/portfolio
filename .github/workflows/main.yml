@@ -11,10 +11,10 @@ jobs:
       - name: Cache node_modules
         uses: actions/cache@v1
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-yarn-
             
       - name: Installing necessary pkgs
         run: yarn
@@ -23,6 +23,8 @@ jobs:
         run: yarn build
       
       - name: Deploying app
-        uses: EdricChan03/action-build-deploy-ghpages@v2.5.0
+        uses: crazy-max/ghaction-github-pages@v2
         with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
+            build_dir: ./build
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
