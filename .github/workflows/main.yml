@@ -30,6 +30,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
             build_dir: ./build
-            domain: shreyasssk.com
+            fqdn: shreyasssk.com
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
