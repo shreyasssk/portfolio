@@ -1,4 +1,3 @@
-// import { Container, Row, Col } from 'shards-react';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 

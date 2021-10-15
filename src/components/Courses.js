@@ -1,10 +1,9 @@
 import './styles.css';
-import { Card } from 'shards-react';
 
 const Courses = () => {
 	return (
 		<div className="section">
-			<Card>
+			<div className="card">
 				<div className="card-body">
 					<h2 className="courses" style={{ color: '#545e69' }}>
 						Courses / Certifications
@@ -30,7 +29,7 @@ const Courses = () => {
 						</p>
 					</div>
 				</div>
-			</Card>
+			</div>
 		</div>
 	);
 };

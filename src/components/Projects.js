@@ -1,16 +1,15 @@
 import './styles.css';
-import { Card, Row, Col } from 'shards-react';
 
 const Projects = () => {
 	return (
 		<div className="section">
-			<Card>
+			<div className="card">
 				<div className="card-body">
 					<h2 style={{ color: '#545e69', paddingBottom: '15px' }}>
 						My Projects
 					</h2>
-					<Row>
-						<Col className="col-md-4 col-12">
+					<div className="row">
+						<div className="col-md-4 col-12">
 							<div className="card-title">
 								<a
 									href="https://www.github.com"
@@ -24,8 +23,8 @@ const Projects = () => {
 									/>
 								</a>
 							</div>
-						</Col>
-						<Col className="desc col-md-8 col-12">
+						</div>
+						<div className="desc col-md-8 col-12">
 							<div className="card-text">
 								<h3 className="title">
 									<a
@@ -58,10 +57,10 @@ const Projects = () => {
 									</a>
 								</p>
 							</div>
-						</Col>
-					</Row>
-					<Row>
-						<Col className="col-md-4 col-12">
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-md-4 col-12">
 							<div className="card-title">
 								<a
 									href="https://www.github.com"
@@ -75,8 +74,8 @@ const Projects = () => {
 									/>
 								</a>
 							</div>
-						</Col>
-						<Col className="desc col-md-8 col-12">
+						</div>
+						<div className="desc col-md-8 col-12">
 							<div className="card-text">
 								<h3 className="title">
 									<a
@@ -109,10 +108,10 @@ const Projects = () => {
 									</a>
 								</p>
 							</div>
-						</Col>
-					</Row>
+						</div>
+					</div>
 				</div>
-			</Card>
+			</div>
 		</div>
 	);
 };

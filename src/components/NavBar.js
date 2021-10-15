@@ -1,19 +1,11 @@
 import './NavBar.css';
-import { Container, Row, Col, Button, FormCheckbox, Card } from 'shards-react';
-import { useState } from 'react';
 
 const NavBar = () => {
-	const [checked, setChecked] = useState(false);
-
-	const handleToggle = () => {
-		setChecked(!checked);
-	};
-
 	return (
-		<Card className="header">
-			<Container>
-				<Row className="align-items-center">
-					<Col>
+		<div className="card header">
+			<div className="container">
+				<div className="row align-items-center">
+					<div className="col">
 						<img
 							src="profile.png"
 							alt="profile-pic"
@@ -53,22 +45,30 @@ const NavBar = () => {
 								</li>
 							</ul>
 						</div>
-					</Col>
-					<Col className="col-12 col-md-auto">
-						<FormCheckbox
-							toggle
-							small
-							checked={checked}
-							onChange={handleToggle}
-						>
-							Dark Mode
-						</FormCheckbox>
+					</div>
+					<div className="col-12 col-md-auto">
+						<div class="custom-control custom-toggle my-2">
+							<input
+								type="checkbox"
+								id="customToggle2"
+								name="customToggle2"
+								className="custom-control-input"
+							/>
+							<label
+								className="custom-control-label"
+								for="customToggle2"
+							>
+								Dark mode
+							</label>
+						</div>
 						<br />
-						<Button theme="success">Download my resume!</Button>
-					</Col>
-				</Row>
-			</Container>
-		</Card>
+						<div className="btn btn-success">
+							Download my resume!
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	);
 };
 

@@ -39,3 +39,21 @@ h2 {
 .info li {
     margin-bottom: 15px;
 }
+
+.skill li {
+    float: left;
+}
+
+.education h5 {
+    margin-bottom: 0px;
+}
+
+.education .grad-cap {
+    margin-right: 5px;
+}
+
+.education p {
+    font-size: 15px;
+    color: #999;
+    margin-left: 30px;
+}
