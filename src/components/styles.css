@@ -1,0 +1,41 @@
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: '#545e69';
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section .tags {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+.courses {
+    line-height: 47px;
+    display: inline-block;
+}
+
+.info .svg-inline--fa {
+    margin-right: 15px;
+    color: #ccd1d6;
+}
+
+.info .svg-inline--fa.fa-envelope-o {
+    font-size: 14px;
+}
+
+.info ul {
+    margin-bottom: 0;
+}
+
+.info li {
+    margin-bottom: 15px;
+}
