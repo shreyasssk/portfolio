@@ -23,6 +23,6 @@ jobs:
         run: yarn build
       
       - name: Deploying app
-        uses: EdricChan03/action-build-deploy-ghpages@v2
+        uses: EdricChan03/action-build-deploy-ghpages@v2.5.0
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
