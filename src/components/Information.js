@@ -34,7 +34,7 @@ const Information = () => {
 								</a>
 							</li>
 							<li>
-								<i className="fas fa-github"></i>
+								<i className="fab fa-github"></i>
 								<span className="sr-only">GitHub:</span>
 								<a
 									style={{ color: '#3AAA64' }}

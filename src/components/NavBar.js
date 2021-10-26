@@ -20,27 +20,17 @@ const NavBar = () => {
 							<ul className="social list-inline">
 								<li className="list-inline-item">
 									<a href="google.com">
-										<i class="fab fa-twitter"></i>
+										<i className="fab fa-twitter"></i>
 									</a>
 								</li>
 								<li className="list-inline-item">
 									<a href="google.com">
-										<i class="fa fa-linkedin-in"></i>
+										<i className="fab fa-linkedin-in"></i>
 									</a>
 								</li>
 								<li className="list-inline-item">
 									<a href="google.com">
-										<i class="fa fa-github-alt"></i>
-									</a>
-								</li>
-								<li className="list-inline-item">
-									<a href="google.com">
-										<i class="fa fa-stack-overflow"></i>
-									</a>
-								</li>
-								<li className="list-inline-item">
-									<a href="google.com">
-										<i class="fa fa-user"></i>
+										<i className="fab fa-github"></i>
 									</a>
 								</li>
 							</ul>
