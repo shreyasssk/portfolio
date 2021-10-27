@@ -6,6 +6,7 @@ import Courses from './Courses';
 import Information from './Information';
 import Skills from './Skills';
 import Education from './Education';
+import Blog from './Blog';
 
 const Home = () => {
 	return (
@@ -22,6 +23,7 @@ const Home = () => {
 					<Information />
 					<Skills />
 					<Education />
+					<Blog />
 				</div>
 			</div>
 		</div>

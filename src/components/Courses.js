@@ -1,4 +1,14 @@
 import './styles.css';
+import data from './coursesData.json';
+
+const CoursesTemplate = ({ title, desc }) => {
+	return (
+		<div>
+			<h4 style={{ marginBottom: '0px' }}>{title}</h4>
+			<p style={{ marginBottom: '10px' }}>{desc}</p>
+		</div>
+	);
+};
 
 const Courses = () => {
 	return (
@@ -9,24 +19,14 @@ const Courses = () => {
 						Courses / Certifications
 					</h2>
 					<div className="card-text">
-						<h4 style={{ marginBottom: '0px' }}>
-							AWS Solutions Architect
-						</h4>
-						<p style={{ marginBottom: '10px' }}>
-							Author: Stephen Maarek
-						</p>
-						<h4 style={{ marginBottom: '0px' }}>
-							Kubernetes Administrator Course
-						</h4>
-						<p style={{ marginBottom: '10px' }}>
-							Offered by KodeKloud on Udemy
-						</p>
-						<h4 style={{ marginBottom: '0px' }}>
-							AWS EKS Masterclass
-						</h4>
-						<p style={{ marginBottom: '10px' }}>
-							Offered by Stack Simplify on Udemy
-						</p>
+						{data.map((i) => {
+							return (
+								<CoursesTemplate
+									title={i.title}
+									desc={i.desc}
+								/>
+							);
+						})}
 					</div>
 				</div>
 			</div>
