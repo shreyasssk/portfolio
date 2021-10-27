@@ -15,7 +15,10 @@ h2 {
     font-weight: 900;
     font-size: 15px;
     letter-spacing: 1px;
-    padding-top: 10px;
+}
+
+.section .badge {
+    margin-top: 3px;
 }
 
 .courses {

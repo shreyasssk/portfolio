@@ -1,0 +1,57 @@
+[
+    {
+        "title": "CI / CD",
+        "desc": "Good hands-on knowledge of Source Code Management (Version Control System) tools like Git. Proficient in developing Continuous Integration/ Delivery pipelines. Experience with automation/ integration tools like GitHub Actions, AWS CodePipeline and Jenkins.",
+        "tags": [
+            "SCM",
+            "GitHub Actions",
+            "AWS Pipeline",
+            "Jenkins",
+            "Bitbucket"
+        ]
+    },
+    {
+        "title": "Kubernetes",
+        "desc": "Knowledgeable with container systems like Docker and container orchestration like EC2 Container Service. Managed Docker orchestration and Docker containerization using Kubernetes. Used Kubernetes to orchestrate the deployment, scaling, and management of Docker Containers. Experience in administering and supporting the CM tools like Git, Travis, AWS CodePipeline on Unix environments. Experienced in deploying Microservices to App Servers and Database Changes to AWS Storage classes.",
+        "tags": [
+            "Docker",
+            "EKS",
+            "External DNS",
+            "Certificate Manager",
+            "Secrets",
+            "Cluster Maintenance",
+            "Cluster Security",
+            "Networking",
+            "PV&C"
+        ]
+    },
+    {
+        "title": "AWS",
+        "desc": "Strategized, designed, and deployed innovative and security architecture for cloud data protection. I believe I still have lots to know and learn and so seeking to leverage an in-depth understanding of Amazon Web Services' global infrastructure and the amazing this it has to offer.",
+        "tags": [
+            "IAM",
+            "ECS",
+            "EKS",
+            "Storage Classes",
+            "Networking",
+            "Fargate",
+            "CloudFront",
+            "CloudFormation",
+            "Monitoring",
+            "Audit",
+            "CodePipeline",
+            "Disaster Recovery",
+            "Security",
+            "Automated Backups"
+        ]
+    },
+    {
+        "title": "Terraform",
+        "desc": "Wrote terraform scripts from scratch for building Dev, Staging and Prod environments. Create and maintain highly scalable and fault tolerant multi-tier AWS environments spanning across multiple availability zones using Terraform.",
+        "tags": [
+            "Terraform State",
+            "Remote State Storage",
+            "Terraform Cloud"
+        ]
+    }
+]

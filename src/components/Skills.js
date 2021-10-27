@@ -89,7 +89,7 @@ const Skills = () => {
 						{prog()}
 					</div>
 					<div className="card-text">
-						<h4>Dev Ops</h4>
+						<h4>DevOps</h4>
 						{devops()}
 					</div>
 					<div className="card-text">
