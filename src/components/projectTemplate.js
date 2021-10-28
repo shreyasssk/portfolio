@@ -29,11 +29,11 @@ const ProjectTemplate = ({ githubURL, imageURL, title, desc }) => {
 								{title}
 							</a>
 						</h3>
-						<p class="mb-2">{desc}</p>
+						<p className="mb-2">{desc}</p>
 						{/* <p>
 							<a
 								style={{ color: '#3AAA64' }}
-								class="more-link"
+								className="more-link"
 								href={githubURL}
 								target="_blank"
 								rel="noopener noreferrer"

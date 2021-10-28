@@ -1,19 +1,19 @@
 [
     {
         "githubURL": "https://github.com/shreyasssk/tickets.dev.git",
-        "imageURL": "https://raw.githubusercontent.com/shreyasssk/image-reference/master/system-dashboard.gif",
+        "imageURL": "images/tickets.png",
         "title": "Tickets.dev",
         "desc": "A microservices project built on MEAN Stack, Typescript, NATS Streaming Server, Docker and Kubernetes."
     },
     {
         "githubURL": "https://github.com/shreyasssk/performance-monitor.git",
-        "imageURL": "https://raw.githubusercontent.com/shreyasssk/image-reference/master/system-dashboard.gif",
+        "imageURL": "https://raw.githubusercontent.com/shreyasssk/image-reference/master/performance-monitor.gif",
         "title": "Performance Monitor",
         "desc": "A cross-platform dashboard to view CPU and Memory usage of multiple systems and it’s processes. Built using Nodejs, Socket.io, MongoDB, Redis and Cluster module."
     },
     {
         "githubURL": "https://github.com/shreyasssk/",
-        "imageURL": "https://raw.githubusercontent.com/shreyasssk/image-reference/master/system-dashboard.gif",
+        "imageURL": "images/iot-1.jpg",
         "title": "IoT Project",
         "desc": "Built a IoT project that can control electrical appliances using a online platform 'Blynk' and also integrated it with Google Assistant for voice control."
     }

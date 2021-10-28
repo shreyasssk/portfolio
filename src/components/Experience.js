@@ -18,7 +18,11 @@ const Experience = () => {
 					<h2 style={{ color: '#545e69' }}>Experience</h2>
 					{data.map((i) => {
 						return (
-							<ExperienceTemplate title={i.title} desc={i.desc} />
+							<ExperienceTemplate
+								key={i.title}
+								title={i.title}
+								desc={i.desc}
+							/>
 						);
 					})}
 				</div>

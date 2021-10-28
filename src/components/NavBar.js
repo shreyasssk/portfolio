@@ -19,17 +19,29 @@ const NavBar = () => {
 							</h2>
 							<ul className="social list-inline">
 								<li className="list-inline-item">
-									<a href="google.com">
+									<a
+										href="https://twitter.com/shreyasssk"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<i className="fab fa-twitter"></i>
 									</a>
 								</li>
 								<li className="list-inline-item">
-									<a href="google.com">
+									<a
+										href="https://www.linkedin.com/in/shreyasssk/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<i className="fab fa-linkedin-in"></i>
 									</a>
 								</li>
 								<li className="list-inline-item">
-									<a href="google.com">
+									<a
+										href="https://github.com/shreyasssk"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<i className="fab fa-github"></i>
 									</a>
 								</li>
@@ -37,24 +49,13 @@ const NavBar = () => {
 						</div>
 					</div>
 					<div className="col-12 col-md-auto">
-						<div class="custom-control custom-toggle my-2">
-							<input
-								type="checkbox"
-								id="customToggle2"
-								name="customToggle2"
-								className="custom-control-input"
-							/>
-							<label
-								className="custom-control-label"
-								for="customToggle2"
-							>
-								Dark mode
-							</label>
-						</div>
-						<br />
-						<div className="btn btn-success">
+						<a
+							href="https://drive.google.com/uc?export=download&id=13bTJseYu16nIurv3arF7HMHeEEfzsolF"
+							download
+							className="btn btn-success"
+						>
 							Download my resume!
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>

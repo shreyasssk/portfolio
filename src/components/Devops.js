@@ -5,7 +5,7 @@ const DevOpsTemplate = ({ title, desc, tags }) => {
 	const tagName = () => {
 		return tags.map((i) => {
 			return (
-				<span>
+				<span key={i}>
 					<span className="badge badge-primary">{i}</span>{' '}
 				</span>
 			);
@@ -34,6 +34,7 @@ const DevOps = () => {
 					{data.map((i) => {
 						return (
 							<DevOpsTemplate
+								key={i.title}
 								title={i.title}
 								desc={i.desc}
 								tags={i.tags}

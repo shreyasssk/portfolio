@@ -4,9 +4,9 @@ import NavBar from './components/NavBar';
 const App = () => {
 	return (
 		<div>
-			<div className="alert alert-dark">
+			{/* <div className="alert alert-dark">
 				<h1>This website is still under development</h1>
-			</div>
+			</div> */}
 			<NavBar />
 			<Home />
 		</div>

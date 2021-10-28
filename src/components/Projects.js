@@ -1,6 +1,7 @@
 import './styles.css';
 import ProjectTemplate from './projectTemplate';
 import data from './projectData.json';
+import Modal from './Modal';
 
 const Projects = () => {
 	return (
@@ -14,6 +15,7 @@ const Projects = () => {
 					{data.map((i) => {
 						return (
 							<ProjectTemplate
+								key={i.title}
 								githubURL={i.githubURL}
 								imageURL={i.imageURL}
 								title={i.title}
@@ -30,6 +32,8 @@ const Projects = () => {
 					>
 						Find out more!
 					</a>
+					&nbsp; &nbsp;
+					<Modal imgTitle="Other Projects" />
 				</div>
 			</div>
 		</div>

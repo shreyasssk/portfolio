@@ -28,7 +28,7 @@ const Skills = () => {
 	const webDev = () => {
 		return WebDevBadges.map((i) => {
 			return (
-				<span>
+				<span key={i}>
 					<span
 						style={{ marginTop: '5px' }}
 						className="badge badge-success"
@@ -43,7 +43,7 @@ const Skills = () => {
 	const prog = () => {
 		return ProgBadges.map((i) => {
 			return (
-				<span>
+				<span key={i}>
 					<span className="badge badge-success">{i}</span>{' '}
 				</span>
 			);
@@ -53,7 +53,7 @@ const Skills = () => {
 	const devops = () => {
 		return DevOps.map((i) => {
 			return (
-				<span>
+				<span key={i}>
 					<span
 						style={{ marginTop: '5px' }}
 						className="badge badge-success"
@@ -68,7 +68,7 @@ const Skills = () => {
 	const appDev = () => {
 		return AppDev.map((i) => {
 			return (
-				<span>
+				<span key={i}>
 					<span className="badge badge-success">{i}</span>{' '}
 				</span>
 			);

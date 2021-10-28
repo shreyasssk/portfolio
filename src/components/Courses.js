@@ -22,6 +22,7 @@ const Courses = () => {
 						{data.map((i) => {
 							return (
 								<CoursesTemplate
+									key={i.title}
 									title={i.title}
 									desc={i.desc}
 								/>
