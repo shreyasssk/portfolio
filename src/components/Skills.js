@@ -11,7 +11,7 @@ const Skills = () => {
 		'Socket.io',
 	];
 
-	const ProgBadges = ['Typescript', 'Python', 'Golang'];
+	const ProgBadges = ['Typescript', 'Python'];
 
 	const DevOps = [
 		'Docker',
