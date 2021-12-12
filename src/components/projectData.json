@@ -9,7 +9,7 @@
         "githubURL": "https://github.com/shreyasssk/performance-monitor.git",
         "imageURL": "https://raw.githubusercontent.com/shreyasssk/image-reference/master/performance-monitor.gif",
         "title": "Performance Monitor",
-        "desc": "A cross-platform dashboard to view CPU and Memory usage of multiple systems and it’s processes. Built using Nodejs, Socket.io, MongoDB, Redis and Cluster module."
+        "desc": "A cross-platform dashboard to view CPU and Memory usage of multiple systems and it’s processes. Built using MERN Stack, Socket.io, MongoDB, Redis and Cluster module."
     },
     {
         "githubURL": "https://github.com/shreyasssk/",
