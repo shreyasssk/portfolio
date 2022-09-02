@@ -8,8 +8,8 @@
     {
         "githubURL": "https://github.com/shreyasssk/performance-monitor.git",
         "imageURL": "https://raw.githubusercontent.com/shreyasssk/image-reference/master/performance-monitor.gif",
-        "title": "Open Resource Control and Surveillance Toolkit (ORCS)",
-        "desc": "A cross-platform dashboard to view real-time CPU and Memory usage of multiple systems and it’s processes. It's primary focus is to limit and monitor resource utilization through Identity Access Management (IAM). Built using Nodejs, Electron, React, Socket.io, MongoDB, Redis and Cluster module."
+        "title": "Performance Monitor",
+        "desc": "A cross-platform dashboard to view CPU and Memory usage of multiple systems and it’s processes. Built using MERN Stack, Socket.io, MongoDB, Redis and Cluster module."
     },
     {
         "githubURL": "https://github.com/shreyasssk/",

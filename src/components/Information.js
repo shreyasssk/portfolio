@@ -24,16 +24,6 @@ const Information = () => {
 								</a>
 							</li>
 							<li>
-								<i className="fas fa-phone-alt"></i>
-								<span className="sr-only">Phone:</span>
-								<a
-									style={{ color: '#3AAA64' }}
-									href="tel:+91 9008976427"
-								>
-									+91 9008976427
-								</a>
-							</li>
-							<li>
 								<i className="fab fa-github"></i>
 								<span className="sr-only">GitHub:</span>
 								<a
