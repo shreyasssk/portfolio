@@ -3,11 +3,11 @@ import './styles.css';
 const Skills = () => {
 	const WebDevBadges = [
 		'React',
-		'Angular',
 		'Nodejs',
 		'Typescript',
 		'MongoDB',
 		'MySQL',
+		'Redis',
 		'Socket.io',
 	];
 
@@ -23,16 +23,13 @@ const Skills = () => {
 		'AWS',
 	];
 
-	const AppDev = ['Flutter', 'Dart'];
+	const AppDev = ['React Native'];
 
 	const webDev = () => {
 		return WebDevBadges.map((i) => {
 			return (
 				<span key={i}>
-					<span
-						style={{ marginTop: '5px' }}
-						className="badge badge-success"
-					>
+					<span style={{ marginTop: '5px' }} className="badge badge-success">
 						{i}
 					</span>{' '}
 				</span>
@@ -54,10 +51,7 @@ const Skills = () => {
 		return DevOps.map((i) => {
 			return (
 				<span key={i}>
-					<span
-						style={{ marginTop: '5px' }}
-						className="badge badge-success"
-					>
+					<span style={{ marginTop: '5px' }} className="badge badge-success">
 						{i}
 					</span>{' '}
 				</span>
